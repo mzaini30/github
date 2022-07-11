@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsx script/ambilPertama.ts && vue-tsc --noEmit && vite build && tsx script/afterBuild.ts",
+    "build": "tsx script/ambilTerbaru.ts && vue-tsc --noEmit && vite build && tsx script/afterBuild.ts",
     "build:ssg": "npm run build && presite dist",
     "preview": "vite preview"
   },
