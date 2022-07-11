@@ -1,6 +1,6 @@
 export default [
   {
-    judul: "Kenapa Pakai Iklan?",
-    slug: "iklan",
+    judul: "Auto Sisipkan Blog di README",
+    slug: "readme",
   },
 ];
