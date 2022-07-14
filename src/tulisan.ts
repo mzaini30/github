@@ -1,5 +1,9 @@
 export default [
   {
+    judul: "Install Workflow Automa dari Digimart",
+    slug: "digimart",
+  },
+  {
     judul: "Mengatasi Bun Error Illegal Instruction",
     slug: "bun",
   },
