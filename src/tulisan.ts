@@ -1,5 +1,9 @@
 export default [
   {
+    judul: 'Otomatis "go fmt" Setiap Save',
+    slug: "gofmt",
+  },
+  {
     judul: "Install Workflow Automa dari Digimart",
     slug: "digimart",
   },
