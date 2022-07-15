@@ -1,5 +1,9 @@
 export default [
   {
+    judul: "Script Golang untuk Ngecek Error",
+    slug: "error",
+  },
+  {
     judul: 'Otomatis "go fmt" Setiap Save',
     slug: "gofmt",
   },
