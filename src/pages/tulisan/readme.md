@@ -9,6 +9,8 @@ Di `README.md`, sisipkan ini:
 <!-- blog end -->
 ```
 
+Di `.gitignore`, tambahkan `blog`.
+
 Lalu, di `.github/workflows/blog.yml`, isinya ini:
 
 ```yaml
@@ -30,12 +32,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-      - run: npm i -g github-blog-zen
-      - run: blog
+      - run: wget -nc https://raw.githack.com/mzaini30/github-blog-golang/master/blog
+      - run: ./blog
       - uses: EndBug/add-and-commit@v7
         with:
           message: "tambahkan blog di readme"
