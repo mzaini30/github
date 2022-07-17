@@ -25,11 +25,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [15.x]
-
     steps:
       - uses: actions/checkout@v3
       - run: wget -nc https://raw.githack.com/mzaini30/github-blog-golang/master/blog
