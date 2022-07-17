@@ -33,6 +33,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: wget -nc https://raw.githack.com/mzaini30/github-blog-golang/master/blog
+      - run: chmod +x ./blog
       - run: ./blog
       - uses: EndBug/add-and-commit@v7
         with:
