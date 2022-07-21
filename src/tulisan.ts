@@ -1,5 +1,9 @@
 export default [
   {
+    judul: "Membuat File HTML + Windi CSS + Alpine JS",
+    slug: "windiAlpine",
+  },
+  {
     judul: "Script Golang untuk Ngecek Error",
     slug: "error",
   },

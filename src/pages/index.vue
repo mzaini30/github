@@ -6,9 +6,9 @@ document.title = "Github";
 <template>
   <div class="bg-black sm:min-h-screen sm:p-15">
     <div class="bg-white w-800px max-w-100% mx-auto">
-      <div class="p-5 sm:p-10">
-        <h1 class="text-3xl">Github</h1>
-        <p>Kumpulan info tentang akun Githubku</p>
+      <div class="p-5 !pb-0 sm:p-10">
+        <h1 class="text-3xl text-slate-700">Github</h1>
+        <p class="text-slate-500">Kumpulan info tentang akun Githubku</p>
       </div>
 
       <ol class="p-5 sm:p-10">
